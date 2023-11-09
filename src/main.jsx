@@ -11,8 +11,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <NavBar />
     <App />
     <Button />
-    <Card />
-    <Card />
-    <Card />
+    <div className="container">
+      <Card />
+      <Card />
+      <Card />
+    </div>
   </React.StrictMode>
 );
